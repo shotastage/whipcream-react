@@ -1,0 +1,9 @@
+{
+  "name": "whipcream-react",
+  "version": "0.0.1",
+  "description": "Whipcream UI for React.js",
+  "main": "index.js",
+  "repository": "git@github.com:shotastage/whipcream-react.git",
+  "author": "Shota Shimazu <hornet.live.mf@gmail.com>",
+  "license": "MIT"
+}
