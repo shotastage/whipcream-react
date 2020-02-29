@@ -1,5 +1,5 @@
-import react from 'react';
-import styled from 'styled-components';
+import react from "react";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Navigation = styled.nav`
@@ -47,7 +47,7 @@ export const NavArea = styled.div`
   flex-direction: row;
 
   @media screen and (max-width: 480px) {
-      margin: 5px;
+    margin: 5px;
   }
 `;
 
@@ -58,35 +58,32 @@ export const NavItems = styled.div`
   text-align: center;
 
   @media screen and (max-width: 480px) {
-      min-width: 100px;
-
+    min-width: 100px;
   }
 `;
 
-
 export const NavLink = styled(Link)`
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
+  padding: 0.5em;
+  border-radius: 0.3em;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 480px) {
     padding: 0.5em;
     border-radius: 0.3em;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
 
     &:hover {
-        background: #000;
-        color: #FFF;
+      background: #fff;
+      color: #333;
     }
-
-
-    @media screen and (max-width: 480px) {
-      padding: 0.5em;
-      border-radius: 0.3em;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      color: white;
-
-      &:hover {
-        background: #fff;
-        color: #333;
-      }
-    }
+  }
 `;
