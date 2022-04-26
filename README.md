@@ -1,8 +1,5 @@
 # Whipcream UI for React
 
-> > NOW UNDER CONSTRUCTION
-
-
+>> NOW UNDER CONSTRUCTION
 
 Fundamental UI components.
-
